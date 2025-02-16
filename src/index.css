@@ -3,20 +3,23 @@
 }
 
 body {
+  background-color: #fafaf8;
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.1),
+    0px 1px 2px 0px rgba(0, 0, 0, 0.06);
   font-family: Inter, sans-serif;
-  margin: 0;
+  margin: 0 auto;
+  width: 720px;
 }
 
 header {
   align-items: center;
+  background-color: white;
   box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.1),
     0px 1px 2px 0px rgba(0, 0, 0, 0.06);
   display: flex;
   gap: 15px;
   height: 111px;
   justify-content: center;
-  margin: 0 auto;
-  width: 720px;
 }
 
 header > img {
@@ -27,4 +30,51 @@ header > img {
 header > h1 {
   font-size: 32px;
   font-weight: 400;
+}
+
+main {
+  align-items: center;
+  display: flex;
+  height: 180px;
+  justify-content: center;
+}
+
+.add-ingredient-form {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+}
+
+.add-ingredient-form > input {
+  border-radius: 6px;
+  border: 1px fixed #d1d5db;
+  box-shadow: 0px 1px 2px 0px #0000000d;
+  color: #141413;
+  flex-grow: 1;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  height: 38px;
+  line-height: 20px;
+  max-width: 400px;
+  min-width: 150px;
+  padding: 9px 13px;
+  width: 399px;
+}
+
+.add-ingredient-form > button {
+  align-items: center;
+  background-color: #141413;
+  border-radius: 6px;
+  box-shadow: 0px 1px 2px 0px #0000000d;
+  color: #fafaf8;
+  display: flex;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  height: 38px;
+  justify-content: center;
+  line-height: 20px;
+  padding: 9px 17px;
+  width: 183px;
 }
