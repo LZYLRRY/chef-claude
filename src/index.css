@@ -33,7 +33,8 @@ header > h1 {
 }
 
 main {
-  height: 180px;
+  /* height: calc(100vh - 111px); */
+  height: 100%;
   padding: 30px;
 }
 
@@ -75,4 +76,46 @@ main {
   line-height: 20px;
   padding: 9px 17px;
   width: 183px;
+}
+
+ul.ingredients-list {
+  margin-bottom: 48px;
+}
+
+ul.ingredients-list > li {
+  color: #475467;
+  line-height: 28px;
+}
+
+.get-recipe-container {
+  align-items: center;
+  background: #f0efeb;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 28px;
+}
+
+.get-recipe-container h3 {
+  font-size: 1.125rem;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.get-recipe-container p {
+  color: #6b7280;
+  font-size: 0.875rem;
+  line-height: 20px;
+}
+
+.get-recipe-container button {
+  background: #d17557;
+  border-radius: 6px;
+  border: none;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+  color: #fafaf8;
+  cursor: pointer;
+  font-family: Inter, sans-serif;
+  font-size: 0.875rem;
+  padding: 9px 17px;
 }
